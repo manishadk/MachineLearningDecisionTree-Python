@@ -21,6 +21,8 @@ classifier = classifier.fit(train_data,train_target)
 print('Decision Tree Output',classifier.predict(test_data))
 print ('Original Output From Table',test_target)
 
+
+#Graphical Output Portion
 dot_data = StringIO()
 tree.export_graphviz(classifier,out_file=dot_data,
 			feature_names=iris.feature_names,
