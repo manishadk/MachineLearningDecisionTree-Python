@@ -4,7 +4,7 @@ from sklearn import tree
 
 # training data qunatified(ints instead of strings)
 features =[[150,1,2],[170,0,2],[130,1,1],[180,0,1]]
-labels = [0,2,2,2]
+labels = [0,1,0,1]
 
 classifier=tree.DecisionTreeClassifier() # empty classifier
 # now we must train the classifier through learning
